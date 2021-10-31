@@ -23,7 +23,7 @@ body{
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.screen{
+input[type="text"]{
     width: 221.14px;
     height: 89.57px;
     left: 26.57px;
@@ -52,7 +52,7 @@ body{
     margin-left:20px;
 }
 
-.button{
+input[type="button"]{
     font-family: "Kirang Haerang";
     font-style: normal;
     font-weight: normal;
