@@ -4,6 +4,7 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <script src="Calc.js"></script>
         <link rel="stylesheet" href="css/calc.css">
         <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
 </head>
@@ -13,40 +14,38 @@
 
         <div class="base" style="justify-content:space-between">
 
-            <tr>
-            <td><input type="text" class="screen"></input></td>
-            </tr>
-            <div class="line"></div>
+            <form>
 
-            <div class="keypad">
+                <input type="text" class="screen"></input>
+            
+                <div class="line"></div>
 
-                <tr>
-                    <td><input type="button" class="button" value="1"></input></td>
-                    <td><input type="button" class="button" value="2"></input></td>
-                    <td><input type="button" class="button" value="3"></input></td>
+            
+                    <input type="button" class="button" value="1" onclick="input_numbers('1')"></input>
+                    <input type="button" class="button" value="2" onclick="input_numbers('2')"></input>
+                    <input type="button" class="button" value="3" onclick="input_numbers('3')"></input>
 
-                </tr>
+            
 
-                <tr>
-                    <td><input type="button" class="button" value="4"></input></td>
-                    <td><input type="button" class="button" value="5"></input></td>
-                    <td><input type="button" class="button" value="6"></input></td>
-                </tr>
+            
+                    <input type="button" class="button" value="4" onclick="input_numbers('4')"></input>
+                    <input type="button" class="button" value="5" onclick="input_numbers('5')"></input>
+                    <input type="button" class="button" value="6" onclick="input_numbers('6')"></input>
+            
 
-                <tr>
-                    <td><input type="button" class="button" value="7"></input></td>
-                    <td><input type="button" class="button" value="8"></input></td>
-                    <td><input type="button" class="button" value="9"></input></td>
-                </tr>
+            
+                    <input type="button" class="button" value="7" onclick="input_numbers('7')"></input>
+                    <input type="button" class="button" value="8" onclick="input_numbers('8')"></input>
+                    <input type="button" class="button" value="9" onclick="input_numbers('9')"></input>
+            
                 
-                <tr>
-                    <td><input type="button" class="button" value="0"></input></td>
-                    <td><input type="button" class="button" value="."></input></td>
-                    <td><button class="orange-button">--></button></td>
-                </tr>
+            
+                    <input type="button" class="button" value="0" onclick="input_numbers('0')"></input>
+                    <input type="button" class="button" value="." onclick="input_numbers('.')"></input>
+                    <button class="orange-button">--></button>
+            
 
-
-            </div>
+            </form>
 
     </div>
 
