@@ -16,7 +16,7 @@
 
             <form>
 
-                <input type="text" id="screen"></input>
+                <input disabled type="text" id="screen" align="right"></input>
             
                 <div class="line"></div>
 
@@ -40,9 +40,9 @@
             
                 
             
-                    <input type="button" class="button" value="0" onclick="input_numbers('0')"></input>
-                    <input type="button" class="button" value="." onclick="input_numbers('.')"></input>
-                    <button class="orange-button">--></button>
+                    <input type="button" id="0" value="0" onclick="input_numbers('0')"></input>
+                    <input type="button" id="delete" value="del" onclick="input_numbers('del')"></input>
+                    <button class="orange-button">=</button>
             
 
             </form>
